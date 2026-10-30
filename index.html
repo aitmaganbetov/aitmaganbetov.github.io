@@ -1,25 +1,31 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Асет Айтмаганбетов — IT Director (CIO)</title>
-  <style>
-    body {
-      background: #1e1e1e;
-      color: #d4d4d4;
-      font-family: Consolas, monospace;
-      padding: 40px;
-    }
-    h1 { color: #4fc1ff; }
-    h2 { color: #dcdcaa; }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10141c">
+  <meta name="description" content="Асет Айтмаганбетов — IT-директор (CIO). IT-управление, цифровизация образования, инфраструктура и информационная безопасность.">
+  <title>Асет Айтмаганбетов · IT-директор (CIO)</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
 </head>
 <body>
-  <h1>Асет Айтмаганбетов</h1>
-  <h2>IT Director (CIO)</h2>
-  <p>Digital Transformation | AI | IT Infrastructure</p>
-  <p>Более 17 лет опыта в IT</p>
+  <a class="skip" href="#main">Перейти к содержанию</a>
+  <header class="titlebar">
+    <button id="explorer-toggle" class="icon-button" aria-label="Проводник" aria-expanded="true">☰</button>
+    <span class="brand"><span class="brand-mark">⌘</span> CIO<span class="muted">.workspace</span></span>
+    <span class="address">⌕ &nbsp; aitmaganbetov.github.io</span>
+    <div class="languages" aria-label="Language"><button data-lang="ru">RU</button><button data-lang="kk">KK</button><button data-lang="en">EN</button></div>
+    <button id="terminal-toggle" class="icon-button" aria-label="Терминал" aria-expanded="true">&gt;_</button>
+  </header>
+  <div class="workspace">
+    <nav class="activity" aria-label="Workspace"><button class="active" id="activity-explorer" aria-label="Проводник">▱</button><button data-open="timeline" aria-label="Карьера">⑂</button><button data-open="projects" aria-label="Проекты">◇</button><button data-open="contact" aria-label="Контакты">@</button><span class="activity-bottom">AA</span></nav>
+    <aside id="explorer" class="explorer"><div class="explorer-title">EXPLORER <span>···</span></div><p class="folder">⌄ &nbsp; CIO-PORTFOLIO</p><nav id="files" aria-label="Разделы резюме"></nav><div class="sidebar-meta"><span class="tiny">BASED IN</span><p>Астана · Kazakhstan</p><a href="mailto:a.aitmaganbetov@gmail.com">a.aitmaganbetov@gmail.com ↗</a><a href="tel:+77076041212">+7 (707) 604-12-12 ↗</a><span class="sidebar-note">© 2026 · Asset Aitmaganbetov</span></div></aside>
+    <div class="editor"><nav id="tabs" class="tabs" aria-label="Открытые разделы"></nav><div id="breadcrumb" class="breadcrumb"></div><main id="main" tabindex="-1"></main><section id="terminal" class="terminal" aria-label="Терминал"><div class="terminal-head"><span>TERMINAL <i></i></span><span class="muted">asset@cio:~</span><button id="terminal-close" aria-label="Скрыть терминал">×</button></div><div id="terminal-output" role="log" aria-live="polite"></div><form id="terminal-form"><label for="command"><span class="green">➜</span> <span class="cyan">~</span></label><input id="command" autocomplete="off" spellcheck="false" aria-label="Команда терминала" placeholder="help"><button type="submit" aria-label="Выполнить">↵</button></form></section></div>
+  </div>
+  <footer class="statusbar"><span>⑂ main &nbsp; ✓</span><span id="status">CIO PORTFOLIO</span><span>UTF-8 &nbsp; <span id="status-lang">RU</span> &nbsp; ◉ GitHub Pages</span></footer>
+  <noscript><div class="nojs">Асет Айтмаганбетов — IT-директор (CIO). Для интерактивного резюме включите JavaScript. Контакты: <a href="mailto:a.aitmaganbetov@gmail.com">a.aitmaganbetov@gmail.com</a>, <a href="tel:+77076041212">+7 (707) 604-12-12</a>.</div></noscript>
 </body>
 </html>
