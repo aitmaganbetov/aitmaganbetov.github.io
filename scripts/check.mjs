@@ -1,7 +1,7 @@
 import {readFileSync,existsSync} from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
-const sources=['data.js','cases.js','app.js','executive.js'];
+const sources=['data.js','cases.js','app.js','executive.js','editorial.js'];
 for(const file of sources)new vm.Script(readFileSync(file,'utf8'),{filename:file});
 const context=vm.createContext({});
 vm.runInContext(readFileSync('data.js','utf8')+';globalThis.cv=CV;',context);
