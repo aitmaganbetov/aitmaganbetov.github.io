@@ -1,5 +1,26 @@
-.ai-art{position:relative;isolation:isolate;min-height:525px;margin:35px 0 55px;border:1px solid #30332f;border-radius:26px;overflow:hidden;background:radial-gradient(ellipse at 59% 53%,#242319 0%,#111310 44%,#0c0e0c 80%);color:#eeeadd;box-shadow:inset 0 1px 1px #d8c99a1c,0 20px 45px #15221b13}
-.ai-art:after{content:'';position:absolute;inset:8px;border:1px solid #d3c38d0d;border-radius:20px;pointer-events:none;z-index:-1}.ai-particles{position:absolute;inset:0;width:100%;height:100%;z-index:-1}.ai-art-copy{position:relative;max-width:410px;padding:40px 35px;pointer-events:none}.ai-art-kicker{font:9px/1.7 var(--mono);letter-spacing:2.3px;color:#c8b67f}.executive .ai-art h2{font:35px/1.2 Georgia,'Times New Roman',serif;color:#eeeadd;letter-spacing:-.7px;margin:20px 0}.ai-art-copy p{font-size:12px;color:#b4b3a9;max-width:230px;line-height:1.9}.ai-art-controls{display:flex;flex-wrap:wrap;gap:7px;position:absolute;right:28px;top:28px;max-width:55%;justify-content:flex-end}.ai-art-controls button,.ai-motion{font:10px/1.5 var(--sans);border:1px solid #68644b;background:#11140fcc;color:#d7d1bb;border-radius:20px;padding:9px 15px;min-height:36px;cursor:pointer}.ai-art-controls button[aria-pressed=true]{background:#c8b57a;color:#171911;border-color:#c8b57a}.ai-art-controls button:hover,.ai-motion:hover{border-color:#dccb91}.ai-art-footer{position:absolute;bottom:25px;left:35px;right:28px;display:flex;align-items:center;justify-content:space-between;gap:20px}.ai-art-footer>span{font:9px/1.7 var(--sans);color:#aaa997;max-width:60%}.ai-art .ai-motion:disabled{opacity:.75;cursor:default}.executive .ai-art button:focus-visible{outline:2px solid #f4d88b;outline-offset:4px}
-@media(max-width:900px){.ai-art{min-height:500px}.ai-art-copy{padding:30px 26px;max-width:300px}.executive .ai-art h2{font-size:30px}.ai-art-controls{top:25px;right:24px;max-width:48%}.ai-art-controls button{padding:8px 12px;font-size:9px}.ai-art-footer{left:26px;right:24px}}
-@media(max-width:680px){.ai-art{min-height:570px;margin:28px 0 35px;border-radius:20px}.ai-art-copy{padding:27px 23px;max-width:100%}.ai-art-kicker{font-size:8px;letter-spacing:1.5px}.executive .ai-art h2{font-size:30px;margin:13px 0}.ai-art-copy p{font-size:11px;max-width:260px;line-height:1.7}.ai-art-controls{top:auto;bottom:75px;left:20px;right:20px;max-width:none;justify-content:center;gap:7px}.ai-art-controls button{font-size:10px;padding:9px 12px;min-height:38px}.ai-art-footer{left:20px;right:20px;bottom:20px;gap:12px}.ai-art-footer>span{font-size:8px;max-width:58%}.ai-motion{font-size:9px;padding:8px 11px;min-height:36px}}
-@media print{.ai-art{min-height:320px;background:#111;color:#eee;break-inside:avoid;print-color-adjust:exact}.ai-art-controls,.ai-motion{display:none}.ai-art-footer>span{max-width:100%}}
+/* The sculpture belongs to the portrait composition, not a standalone panel. */
+.executive .editorial-hero{isolation:isolate;position:relative}
+.executive .editorial-portrait{background:transparent;box-shadow:none;border-radius:0;overflow:visible;padding:42px 0 0;position:relative;isolation:isolate}
+.executive .editorial-portrait:before{content:'';position:absolute;inset:-8% -15% -4% -40%;background:radial-gradient(ellipse at 50% 42%,#d9e7fc88,transparent 64%);z-index:-2;pointer-events:none}
+.executive .editorial-portrait:after{display:none}
+.executive .editorial-portrait>img{position:relative;z-index:1;width:78%;margin-left:22%;border-radius:110px 110px 12px 12px;aspect-ratio:1/.98;box-shadow:0 22px 45px #123a6b1c,0 0 0 8px #f7f6f2c9;filter:saturate(.5) contrast(1.02)}
+.executive .editorial-portrait figcaption{position:relative;z-index:2;color:#53647e;margin-left:22%;padding:18px 0;gap:10px}
+.executive .editorial-portrait figcaption span{color:#0646c6}
+.executive .portrait-edition{top:5px;right:0;color:#41638e;font-size:8px;z-index:2}
+.executive .portrait-seal{display:none}
+.ai-sculpture{position:absolute;left:-65%;top:-13%;width:145%;height:125%;z-index:0;pointer-events:none}
+.ai-particles{position:absolute;inset:0;width:100%;height:100%}
+.ai-motion{position:absolute;left:27%;bottom:9%;pointer-events:auto;background:#f7f6f2cc;border:1px solid #b8c9df;border-radius:20px;color:#536c91;font:9px/1.5 var(--sans);padding:7px 12px;min-height:32px;cursor:pointer;z-index:3}
+.ai-motion:hover{background:white;color:#0646c6;border-color:#7a9ccf}.ai-motion:disabled{opacity:.65;cursor:default}
+.ai-orbit-label{position:absolute;left:20%;top:18%;font:8px/1.6 var(--mono);letter-spacing:2px;color:#6785ac;transform:rotate(-15deg)}
+@media(max-width:1000px){.ai-sculpture{left:-55%;width:145%;top:-6%;height:115%}.ai-motion{left:22%;bottom:4%;font-size:8px}.ai-orbit-label{left:14%;top:15%;font-size:7px}.executive .editorial-portrait>img{width:82%;margin-left:18%}.executive .editorial-portrait figcaption{margin-left:18%;font-size:7px}}
+@media(max-width:680px){.executive .editorial-portrait{padding-top:25px;min-height:365px;width:100%;margin:0}.executive .editorial-portrait>img{width:69%;margin-left:31%;border-radius:110px 110px 10px 10px;aspect-ratio:1/.98}.executive .editorial-portrait figcaption{margin-left:31%;padding-top:17px;font-size:7px}.executive .portrait-edition{font-size:7px;top:0}.ai-sculpture{left:-30%;top:-8%;height:112%;width:125%}.ai-motion{left:27%;bottom:11%;font-size:8px;padding:7px 10px}.ai-orbit-label{left:19%;top:13%;font-size:7px;letter-spacing:1px}.executive .editorial-portrait:before{inset:-10% -5% -5% -20%}}
+@media(max-width:370px){.executive .editorial-portrait{min-height:325px}.ai-motion{bottom:10%;max-width:100px}.ai-orbit-label{top:12%}}
+@media print{.ai-sculpture{display:none}}
+.executive .editorial-hero{overflow:clip}
+.executive .editorial-hero-copy{z-index:2}
+.ai-sculpture{left:-25%;width:130%;top:-8%;height:118%}
+.ai-motion{left:12%;bottom:6%}
+.ai-orbit-label{left:12%;top:13%}
+@media(max-width:1000px) and (min-width:681px){.ai-sculpture{left:-25%;width:130%;top:-5%;height:113%}.ai-motion{left:5%;bottom:0}}
+@media(max-width:680px){.ai-sculpture{left:-20%;top:-8%;height:112%;width:125%}.ai-motion{left:17%;bottom:9%}.ai-orbit-label{left:17%;top:13%}}
