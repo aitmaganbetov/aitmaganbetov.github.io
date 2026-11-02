@@ -22,7 +22,7 @@ npx http-server dist -p 4173 -c-1
 - `executive.js`, `executive.css`: основная главная, Bento-карточки и переключение режима.
 - `styles.css`: базовый интерфейс VS Code.
 - `index.html`: оболочка, canonical, Open Graph и Person JSON-LD.
-- `assets/resume.pdf`: обновлённое двухстраничное PDF-резюме. Кнопка появляется только после проверки HTTP-ответа и сигнатуры `%PDF-`.
+- `assets/resume.pdf`: обновлённое трёхстраничное PDF-резюме. Кнопка появляется только после проверки HTTP-ответа и сигнатуры `%PDF-`.
 - `robots.txt`, `sitemap.xml`: индексация канонического адреса.
 
 Редактируйте тройные массивы в порядке RU, KK, EN. Подробности источников — в `CONTENT-NOTES.md`.
