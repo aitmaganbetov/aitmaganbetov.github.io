@@ -1,5 +1,5 @@
-/* Source: Резюме_Айтмаганбетов_Асет_CIO.pdf supplied by the owner on 2 November 2026.
-   University metrics are attributed to the CV, not independently audited. */
+/* Updated from owner-supplied Резюме_Айтмаганбетов_Асет_обновленное_2026.pdf.
+Metrics are attributed to university teams; project names follow owner corrections. */
 const CV = {
   "updated": "2026-11-02",
   "pdf": "assets/resume.pdf",
@@ -52,14 +52,29 @@ const CV = {
       ],
       "bullets": [
         [
-          "Руководство AI-направлением и аналитикой данных; координация интеллектуальных сервисов, цифровых платформ и интеграций.",
-          "AI бағыты мен деректерді талдауды басқару; интеллектуалды сервистерді, цифрлық платформалар мен интеграцияларды үйлестіру.",
-          "Leadership of AI and data analytics; coordination of intelligent services, digital platforms and integrations."
+          "Руководство развитием AI-направления, аналитики данных и собственной разработкой цифровых сервисов университета; координация архитектуры, внедрения и сопровождения решений.",
+          "AI бағытын, деректер аналитикасын және университеттің цифрлық сервистерін өз күшімен әзірлеуді басқару; архитектураны, енгізуді және сүйемелдеуді үйлестіру.",
+          "Leadership of AI, data analytics and in-house university service development; coordination of architecture, implementation and maintenance."
         ],
         [
-          "Показатели университетских проектов по резюме, отчётность октября 2026: MOOC — 805 опубликованных курсов; Smart Dormitory AI — 1 047 студентов; единый портал — 264 сотрудника; Eotinish — 257 обращений обработано AI-агентами.",
-          "Түйіндемедегі университет жобаларының көрсеткіштері, 2026 жылғы қазан есебі: MOOC — 805 жарияланған курс; Smart Dormitory AI — 1 047 студент; бірыңғай портал — 264 қызметкер; Eotinish — AI-агенттер өңдеген 257 өтініш.",
-          "University project metrics reported in the CV for October 2026: MOOC — 805 published courses; Smart Dormitory AI — 1,047 students; unified portal — 264 staff; Eotinish — 257 requests processed by AI agents."
+          "По отчёту за 2026 год подразделением разработаны и введены в эксплуатацию 17 информационных систем; в университетские сервисы интегрировано более 78 ИИ-агентов.",
+          "2026 жылғы есеп бойынша бөлімше 17 ақпараттық жүйені әзірлеп, пайдалануға берді; университет сервистеріне 78-ден астам AI-агент біріктірілді.",
+          "According to the 2026 report, the department developed and commissioned 17 information systems and integrated more than 78 AI agents into university services."
+        ],
+        [
+          "Развиты AI Tutor, AI Student, Proctoring AI, Smart Dormitory, CRM, Sapa, Alumni, Qadam, электронная библиотека и другие платформы.",
+          "AI Tutor, AI Student, Proctoring AI, Smart Dormitory, CRM, Sapa, Alumni, Qadam, электрондық кітапхана және басқа платформалар дамытылды.",
+          "Development of AI Tutor, AI Student, Proctoring AI, Smart Dormitory, CRM, Sapa, Alumni, Qadam, the digital library and other platforms."
+        ],
+        [
+          "Показатели решений по резюме: MOOC — 805 курсов, 26 188 уроков и 257 преподавателей; приёмная комиссия — 10 600 заявок; Access Core / Face ID — 10 259 действующих пользователей.",
+          "Түйіндемедегі көрсеткіштер: MOOC — 805 курс, 26 188 сабақ және 257 оқытушы; қабылдау комиссиясы — 10 600 өтінім; Access Core / Face ID — 10 259 белсенді пайдаланушы.",
+          "Metrics reported in the CV: MOOC — 805 courses, 26,188 lessons and 257 teachers; admissions — 10,600 applications; Access Core / Face ID — 10,259 active users."
+        ],
+        [
+          "Организация сопровождения внедрения XatBox и XatMeets в университетской инфраструктуре.",
+          "Университет инфрақұрылымында XatBox және XatMeets енгізуді сүйемелдеуді ұйымдастыру.",
+          "Organization of implementation support for XatBox and XatMeets in the university infrastructure."
         ]
       ]
     },
@@ -74,14 +89,19 @@ const CV = {
       ],
       "bullets": [
         [
-          "Руководство инфраструктурой, информационной безопасностью и программой модернизации.",
-          "Инфрақұрылымды, ақпараттық қауіпсіздікті және жаңғырту бағдарламасын басқару.",
-          "Leadership of infrastructure, information security and the modernization program."
+          "Управление IT-инфраструктурой, эксплуатацией информационных систем, информационной безопасностью, закупками и модернизацией университета.",
+          "Университеттің IT инфрақұрылымын, ақпараттық жүйелерді пайдалануды, ақпараттық қауіпсіздікті, сатып алуды және жаңғыртуды басқару.",
+          "Management of university IT infrastructure, information systems operations, information security, procurement and modernization."
         ],
         [
-          "Результаты 2025 года по резюме: кластер Proxmox VE; 2 сервера Dell R660, СХД PowerVault ME5024 и FortiGate 201F; 457 новых ПК; ситуационный центр и 87 камер; внедрение Zabbix, Moodle и Simbase.",
-          "Түйіндемедегі 2025 жылғы нәтижелер: Proxmox VE кластері; 2 Dell R660 сервері, PowerVault ME5024 деректер сақтау жүйесі және FortiGate 201F; 457 жаңа ДК; ситуациялық орталық пен 87 камера; Zabbix, Moodle және Simbase енгізу.",
-          "2025 results reported in the CV: Proxmox VE cluster; 2 Dell R660 servers, PowerVault ME5024 storage and FortiGate 201F; 457 new PCs; situation center and 87 cameras; deployment of Zabbix, Moodle and Simbase."
+          "В 2025 году введены 2 Dell PowerEdge R660, Dell PowerVault ME5024, кластер Proxmox VE, FortiGate 201F и мониторинг Zabbix.",
+          "2025 жылы 2 Dell PowerEdge R660 сервері, Dell PowerVault ME5024, Proxmox VE кластері, FortiGate 201F және Zabbix мониторингі енгізілді.",
+          "In 2025: deployment of 2 Dell PowerEdge R660 servers, Dell PowerVault ME5024, a Proxmox VE cluster, FortiGate 201F and Zabbix monitoring."
+        ],
+        [
+          "Обновлены 457 компьютеров; оснащён ситуационный центр с 87 камерами; развиты корпоративная сеть, VLAN, Omada Wi-Fi, Active Directory, Moodle и Simbase.",
+          "457 компьютер жаңартылды; 87 камерасы бар ситуациялық орталық жабдықталды; корпоративтік желі, VLAN, Omada Wi-Fi, Active Directory, Moodle және Simbase дамытылды.",
+          "Renewal of 457 computers; a situation center with 87 cameras; development of the corporate network, VLAN, Omada Wi-Fi, Active Directory, Moodle and Simbase."
         ]
       ]
     },
@@ -408,7 +428,12 @@ const CV = {
           "Сатып алу және мердігерлер",
           "Procurement and contractors"
         ],
-        "ITSM"
+        "ITSM",
+        [
+          "Бюджетирование",
+          "Бюджеттеу",
+          "Budgeting"
+        ]
       ]
     },
     {
@@ -431,7 +456,8 @@ const CV = {
         "Active Directory",
         "VLAN",
         "FortiGate",
-        "Zabbix"
+        "Zabbix",
+        "Omada Wi-Fi"
       ]
     },
     {
@@ -544,9 +570,9 @@ const CV = {
         "Infrastructure and IT services"
       ],
       "text": [
-        "Результаты 2025 года по резюме: кластер Proxmox VE; 2 сервера Dell R660, СХД PowerVault ME5024 и FortiGate 201F; 457 новых ПК; ситуационный центр и 87 камер; внедрение Zabbix, Moodle и Simbase.",
-        "Түйіндемедегі 2025 жылғы нәтижелер: Proxmox VE кластері; 2 Dell R660 сервері, PowerVault ME5024 деректер сақтау жүйесі және FortiGate 201F; 457 жаңа ДК; ситуациялық орталық пен 87 камера; Zabbix, Moodle және Simbase енгізу.",
-        "2025 results reported in the CV: Proxmox VE cluster; 2 Dell R660 servers, PowerVault ME5024 storage and FortiGate 201F; 457 new PCs; situation center and 87 cameras; deployment of Zabbix, Moodle and Simbase."
+        "В 2025 году введены 2 Dell PowerEdge R660, Dell PowerVault ME5024, кластер Proxmox VE, FortiGate 201F и мониторинг Zabbix. Обновлены 457 компьютеров; оснащён ситуационный центр с 87 камерами; развиты корпоративная сеть, VLAN, Omada Wi-Fi, Active Directory, Moodle и Simbase.",
+        "2025 жылы 2 Dell PowerEdge R660 сервері, Dell PowerVault ME5024, Proxmox VE кластері, FortiGate 201F және Zabbix мониторингі енгізілді. 457 компьютер жаңартылды; 87 камерасы бар ситуациялық орталық жабдықталды; корпоративтік желі, VLAN, Omada Wi-Fi, Active Directory, Moodle және Simbase дамытылды.",
+        "In 2025: deployment of 2 Dell PowerEdge R660 servers, Dell PowerVault ME5024, a Proxmox VE cluster, FortiGate 201F and Zabbix monitoring. Renewal of 457 computers; a situation center with 87 cameras; development of the corporate network, VLAN, Omada Wi-Fi, Active Directory, Moodle and Simbase."
       ],
       "scope": [
         "Модернизация университета · 2025 · по резюме",
@@ -594,14 +620,14 @@ const CV = {
         "University AI platforms"
       ],
       "text": [
-        "Показатели университетских проектов по резюме, отчётность октября 2026: MOOC — 805 опубликованных курсов; Smart Dormitory AI — 1 047 студентов; единый портал — 264 сотрудника; Eotinish — 257 обращений обработано AI-агентами.",
-        "Түйіндемедегі университет жобаларының көрсеткіштері, 2026 жылғы қазан есебі: MOOC — 805 жарияланған курс; Smart Dormitory AI — 1 047 студент; бірыңғай портал — 264 қызметкер; Eotinish — AI-агенттер өңдеген 257 өтініш.",
-        "University project metrics reported in the CV for October 2026: MOOC — 805 published courses; Smart Dormitory AI — 1,047 students; unified portal — 264 staff; Eotinish — 257 requests processed by AI agents."
+        "По отчёту за 2026 год подразделением разработаны и введены в эксплуатацию 17 информационных систем; в университетские сервисы интегрировано более 78 ИИ-агентов. Показатели решений по резюме: MOOC — 805 курсов, 26 188 уроков и 257 преподавателей; приёмная комиссия — 10 600 заявок; Access Core / Face ID — 10 259 действующих пользователей.",
+        "2026 жылғы есеп бойынша бөлімше 17 ақпараттық жүйені әзірлеп, пайдалануға берді; университет сервистеріне 78-ден астам AI-агент біріктірілді. Түйіндемедегі көрсеткіштер: MOOC — 805 курс, 26 188 сабақ және 257 оқытушы; қабылдау комиссиясы — 10 600 өтінім; Access Core / Face ID — 10 259 белсенді пайдаланушы.",
+        "According to the 2026 report, the department developed and commissioned 17 information systems and integrated more than 78 AI agents into university services. Metrics reported in the CV: MOOC — 805 courses, 26,188 lessons and 257 teachers; admissions — 10,600 applications; Access Core / Face ID — 10,259 active users."
       ],
       "scope": [
-        "Показатели университетских проектов · октябрь 2026 · по резюме",
-        "Университет жобаларының көрсеткіштері · қазан 2026 · түйіндеме бойынша",
-        "University project metrics · October 2026 · as reported in CV"
+        "Результаты подразделения · 2026 · по обновлённому резюме",
+        "Бөлімше нәтижелері · 2026 · жаңартылған түйіндеме бойынша",
+        "Department results · 2026 · from the updated CV"
       ],
       "tags": [
         "MOOC",
@@ -610,5 +636,71 @@ const CV = {
         "AI agents"
       ]
     }
+  ],
+  "profile": [
+    "IT-руководитель с опытом более 17 лет: от разработки и администрирования до управления IT-подразделениями, цифровой трансформацией и внедрением искусственного интеллекта. Совмещаю стратегическое управление, проектирование архитектуры, руководство разработкой и практическую инженерную работу. Основные направления: EdTech, AI-агенты, корпоративные платформы, инфраструктура и информационная безопасность.",
+    "Әзірлеу мен әкімшілендіруден IT бөлімдерін, цифрлық трансформацияны және жасанды интеллект енгізуді басқаруға дейін 17 жылдан астам тәжірибесі бар IT басшысы. Стратегиялық басқаруды, архитектураны жобалауды, әзірлеуді басқаруды және инженерлік жұмысты біріктіремін. Бағыттар: EdTech, AI-агенттер, корпоративтік платформалар, инфрақұрылым және ақпараттық қауіпсіздік.",
+    "IT leader with over 17 years of experience, from development and administration to IT leadership, digital transformation and AI implementation. I combine strategic management, architecture design, development leadership and hands-on engineering. Focus: EdTech, AI agents, enterprise platforms, infrastructure and information security."
+  ],
+  "results": [
+    {
+      "value": "17",
+      "name": "IN-HOUSE SYSTEMS",
+      "label": [
+        "информационных систем разработано подразделением",
+        "бөлімше әзірлеген ақпараттық жүйе",
+        "information systems developed by the department"
+      ]
+    },
+    {
+      "value": "78+",
+      "name": "AI AGENTS",
+      "label": [
+        "ИИ-агентов интегрировано в университетские сервисы",
+        "университет сервистеріне біріктірілген AI-агент",
+        "AI agents integrated into university services"
+      ]
+    },
+    {
+      "value": "805",
+      "name": "MOOC",
+      "label": [
+        "курсов · 257 преподавателей",
+        "курс · 257 оқытушы",
+        "courses · 257 teachers"
+      ]
+    },
+    {
+      "value": "26 188",
+      "name": "MOOC LESSONS",
+      "label": [
+        "уроков на образовательной платформе",
+        "білім беру платформасындағы сабақ",
+        "lessons on the learning platform"
+      ]
+    },
+    {
+      "value": "10 600",
+      "name": "ADMISSIONS",
+      "label": [
+        "заявок приёмной комиссии",
+        "қабылдау комиссиясына өтінім",
+        "admissions applications"
+      ]
+    },
+    {
+      "value": "10 259",
+      "name": "ACCESS CORE / FACE ID",
+      "label": [
+        "действующих пользователей",
+        "белсенді пайдаланушы",
+        "active users"
+      ]
+    }
+  ],
+  "resultNote": [
+    "Показатели приведены по обновлённому резюме и отчётам подразделений за 2026 год. Это результаты командной работы университета.",
+    "Көрсеткіштер жаңартылған түйіндеме мен бөлімшелердің 2026 жылғы есептеріне сәйкес берілген. Бұл университет командаларының бірлескен нәтижелері.",
+    "Metrics follow the updated CV and department reports for 2026. They reflect the work of university teams."
   ]
 };
