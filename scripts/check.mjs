@@ -12,6 +12,8 @@ assert(context.cv.jobs.every(job=>job.bullets.length>0),'All roles need responsi
 vm.runInContext(readFileSync('cases.js','utf8')+';globalThis.caseData=CASES;',context);
 assert.equal(Object.keys(context.caseData).length,5);
 assert(context.caseData['Sapa Monitoring']);
+assert(context.caseData.synyp);
+assert(!context.caseData.SchoolOS);
 assert(!context.caseData['KRK Monitoring']);
 assert(readFileSync('executive.js','utf8').includes('https://github.com/aitmaganbetov/krkdev'));
 assert(!readFileSync('executive.js','utf8').includes('krk-monitoring'));

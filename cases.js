@@ -1,22 +1,5 @@
-// Source: owner-supplied CIO resume; Sapa Monitoring verified against aitmaganbetov/krkdev at e26f3b7a1a783a43f098d2c6a4ead16ad9753b77.
+// Project summaries checked against current repositories and owner-supplied CV.
 const CASES = {
-  "SchoolOS": {
-    "summary": [
-      "ERP/SIS для школ Казахстана: учебные планы, нагрузка педагогов, расписание, журналы и аналитика с учётом требований РК.",
-      "Қазақстан мектептеріне арналған ERP/SIS: оқу жоспарлары, педагог жүктемесі, сабақ кестесі, журналдар және ҚР талаптарына сай аналитика.",
-      "ERP/SIS for schools in Kazakhstan: curricula, teacher workload, timetables, journals and analytics aligned with Kazakhstan’s requirements."
-    ],
-    "challenge": [
-      "Объединить разрозненные школьные процессы в единой системе.",
-      "Мектептегі бөлек процестерді бірыңғай жүйеге біріктіру.",
-      "Bring fragmented school processes into a single system."
-    ],
-    "approach": [
-      "Единая платформа управления учебными данными и аналитикой с учётом требований РК.",
-      "ҚР талаптарын ескеретін оқу деректері мен аналитиканы басқарудың бірыңғай платформасы.",
-      "A shared platform for academic data and analytics that considers Kazakhstan’s requirements."
-    ]
-  },
   "OpenProctorAI": {
     "summary": [
       "Интеллектуальный прокторинг дистанционных экзаменов с применением компьютерного зрения.",
@@ -75,6 +58,11 @@ const CASES = {
       "Platonus",
       "AD / LDAP",
       "NCALayer / KalkanCrypt"
+    ],
+    "source": [
+      "Описание сверено с README и кодом актуального репозитория krkdev. Роль автора — по резюме: инициатор, системный архитектор, руководитель разработки и участник реализации.",
+      "Сипаттама krkdev репозиторийінің README және кодымен салыстырылды. Автордың рөлі түйіндемеге сәйкес: бастамашы, жүйелік сәулетші, әзірлеу жетекшісі және іске асыруға қатысушы.",
+      "Description checked against the current krkdev README and code. Role from the CV: initiator, systems architect, development lead and contributor."
     ]
   },
   "Zafirodiskless": {
@@ -93,6 +81,36 @@ const CASES = {
       "Көпагентті архитектура, MCP және оқшауланған Git жұмыс ағаштары.",
       "Multi-agent architecture, MCP and isolated Git worktrees."
     ]
+  },
+  "synyp": {
+    "summary": [
+      "Школьная ERP/SIS-платформа Казахстана: от учебного плана и нагрузки до расписания, оценивания и онлайн-уроков. Ранее SchoolOS.",
+      "Қазақстан мектептеріне арналған ERP/SIS-платформа: оқу жоспары мен жүктемеден сабақ кестесіне, бағалау мен онлайн сабақтарға дейін. Бұрынғы атауы — SchoolOS.",
+      "ERP/SIS for schools in Kazakhstan: from curriculum and teacher workload to timetables, assessment and live lessons. Formerly SchoolOS."
+    ],
+    "challenge": [
+      "Объединить учебную работу школы в цепочку от нормативных требований и планирования до урока, журнала и аналитики.",
+      "Мектептің оқу жұмысын нормативтік талаптар мен жоспарлаудан сабаққа, журналға және аналитикаға дейін бір тізбекке біріктіру.",
+      "Connect school workflows from regulatory requirements and planning through lessons, gradebooks and analytics."
+    ],
+    "approach": [
+      "РУП/ТУП, нагрузка и тарификация, генерация расписания с объяснением конфликтов, КТП/КМЖ, журнал ФО/СОР/СОЧ. Банк тестов, онлайн-класс и видеоуроки LiveKit, AI-помощник. Модульный монолит FastAPI/SQLAlchemy; JavaScript SPA/PWA, PostgreSQL и SQLite. Изоляция данных школ на уровне ORM, роли, аудит и MFA/TOTP. Интерфейс KK/RU. Нормативные проверки помогают выявлять отклонения, без заявления о юридической сертификации.",
+      "Оқу жұмыс және типтік жоспарлары, жүктеме мен тарификация, қайшылықтарды түсіндіретін сабақ кестесі генераторы, КТЖ/ҚМЖ, ҚБ/БЖБ/ТЖБ журналы. Тест банкі, онлайн сынып, LiveKit бейнесабақтары және AI-көмекші. FastAPI/SQLAlchemy модульдік монолиті; JavaScript SPA/PWA, PostgreSQL және SQLite. ORM деңгейінде мектеп деректерін оқшаулау, рөлдер, аудит, MFA/TOTP. KK/RU интерфейсі. Нормативтік тексерулер ауытқуларды анықтауға көмектеседі; заңдық сертификаттау мәлімделмейді.",
+      "Curriculum and workload planning, tariff sheets, timetable generation with conflict explanations, lesson plans and formative/summative gradebooks. Question bank, online classroom, LiveKit lessons and AI assistant. FastAPI/SQLAlchemy modular monolith with JavaScript SPA/PWA, PostgreSQL and SQLite. ORM-level school isolation, roles, audit and MFA/TOTP. KK/RU interface. Regulatory checks flag deviations; legal certification is not claimed."
+    ],
+    "stack": [
+      "Python / FastAPI",
+      "SQLAlchemy",
+      "JavaScript SPA / PWA",
+      "PostgreSQL / SQLite",
+      "LiveKit",
+      "RBAC / MFA"
+    ],
+    "source": [
+      "Название и функции сверены с текущими README и кодом закрытого репозитория schoolOS. Роль автора — по предоставленному резюме.",
+      "Атауы мен функциялары schoolOS жабық репозиторийінің ағымдағы README және кодымен салыстырылды. Автордың рөлі ұсынылған түйіндемеге сәйкес.",
+      "Name and features checked against the current README and code of the private schoolOS repository. Author role follows the supplied CV."
+    ]
   }
 };
 const caseLabels={
@@ -100,6 +118,3 @@ const caseLabels={
   kk:{challenge:'Міндет',approach:'Тәсіл',source:'Ұсынылған түйіндеме бойынша. Рөлі: бастамашы, жүйелік сәулетші, әзірлеу жетекшісі және іске асыруға тікелей қатысушы.'},
   en:{challenge:'Challenge',approach:'Approach',source:'Based on the supplied CV. Role: initiator, systems architect, development lead and direct contributor.'}
 };
-
-
-CASES['Sapa Monitoring'].source = ['Описание сверено с README и кодом актуального репозитория krkdev. Роль автора — по резюме: инициатор, системный архитектор, руководитель разработки и участник реализации.','Сипаттама krkdev репозиторийінің README және кодымен салыстырылды. Автордың рөлі түйіндемеге сәйкес: бастамашы, жүйелік сәулетші, әзірлеу жетекшісі және іске асыруға қатысушы.','Description checked against the current krkdev README and code. Role from the CV: initiator, systems architect, development lead and contributor.'];

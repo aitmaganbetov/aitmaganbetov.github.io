@@ -6,7 +6,7 @@ const executiveUI = {
   en: {label:'TECHNOLOGY WITH A LEADERSHIP PERSPECTIVE',headline:'Connecting strategy, systems and people.',selected:'Selected projects',all:'All projects',practice:'From strategy to digital environments',practiceText:'IT leadership, infrastructure and digital education in one professional practice.',current:'Currently',ai:'AI and data analytics',infra:'Infrastructure and security',infraText:'2025 modernization: 2 Dell R660 servers, PowerVault ME5024, 457 new PCs, situation center and 87 cameras, as reported in the CV.',career:'Professional journey',source:'Based on the source CV',private:'Private materials',public:'Public repository',caseNote:'Author projects from the supplied CV: initiator, systems architect, development lead and direct contributor.',pending:'The challenge, architecture and outcomes will be added after the materials are approved.',repo:'Explore code',discuss:'Discuss project',scope:'Case materials',resume:'Resume and capabilities',developer:'Developer View',executive:'Executive View'}
 };
 const portfolio = [
-  {name:'SchoolOS',mark:'S',category:'EDTECH / PLATFORM',color:'blue'},
+  {name:'synyp',mark:'s',category:'EDTECH / ERP · SIS',color:'blue'},
   {name:'OpenProctorAI',mark:'AI',category:'AI / EDUCATION',color:'violet'},
   {name:'Zafiro',mark:'Z',category:'SOFTWARE / PRODUCT',color:'gold',url:'https://github.com/aitmaganbetov/Zafiro'},
   {name:'Sapa Monitoring',mark:'S',category:'EDUCATION / QUALITY',color:'mint',url:'https://github.com/aitmaganbetov/krkdev'},
